@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+html{
+    background-color: hsl(257, 40%, 49%);
+    width: 100%;
+    height: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+}
+.logo{
+    width: 40vw;
+    height: auto;
+    margin: 5vw;
+}
+.img{
+    width: 100vw;
+    height: auto;
+}
+.mobile{
+    width: 100%;
+    height: auto;
+    margin-top: -21%;
+
+}
+.illustration{
+
+    height: auto;
+    position: absolute;
+    top: 20%;
+    width: 80%;
+    left: 10%;
+}
+.main{
+    text-align: center;
+}
+.Headings{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 70%;
+    height: auto;
+    margin-left:15%;
+    margin-top: 7%;
+
+}
+.text{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.buttom{
+    background-color: white;
+    border: none;
+    cursor:pointer;
+    text-align: center;
+    margin: 1em 1em;
+    padding: 1em 5em;
+    border-radius: 2em;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+}
+.buttom:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.icons{
+    margin-top: 10%;
+    font-size: 3.5ex;
+
+}
+.fa-facebook{
+    width: 10%;
+    height: 10%;
+}
+.fa-twitter-square{
+    width: 10%;
+    height: 10%;  
+}
+.desktop{
+    display: none;
+}
+
+@media screen and (min-width:700px) {
+    .content{
+        display: flex;
+        flex-direction: row;
+        overflow: none;
+        max-height: 100vh;
+        max-width: 100vh;
+
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display:initial;
+        height: 100vh;
+        width: 100vw;
+    }
+    .header{
+        order: -1;
+    }
+    .logo{
+        width: 15%;
+        height: auto;
+        position: absolute;
+        left: 0%;
+        top: -5%;
+
+
+    }
+    .illustration{
+        width: 55%;
+        height: 70%;
+        position: absolute;
+        top: 24%;
+        left: 5%;
+    }
+    .main{
+        order: 0;
+        width:40%;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 60%;
+    }
+    .texts{
+        font-family:'Poppins',sans-serif;
+        text-align: left;
+
+    }
+    .Headings{
+        font-weight: 600;
+        font-size: 5ex;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+    .text{
+        font-weight: 400;
+        font-size: medium;
+        width: 70%;
+        margin-left: 5%;    
+    }
+    .buttom{
+        padding: 1em 4em;
+        margin: 5% 0 0 5%;
+        box-shadow: 0 0 1em rgb(58, 56, 56)
+    }
+    .icons{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        left: 80%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .fa-facebook{
+        width: 30%;
+        height: 30%; 
+    }
+    .fa-twitter-square{
+        width: 30%;
+        height: 30%; 
+    }
+    .fa-instagram-square{
+        width: 30%;
+        height: 30%; 
+    }
+}
+
