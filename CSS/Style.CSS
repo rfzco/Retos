@@ -79,6 +79,15 @@ html{
 .icons{
     margin-top: 10%;
     font-size: 3.5ex;
+
+}
+.fa-facebook{
+    width: 10%;
+    height: 10%;
+}
+.fa-twitter-square{
+    width: 10%;
+    height: 10%;  
 }
 .desktop{
     display: none;
@@ -151,7 +160,7 @@ html{
         box-shadow: 0 0 1em rgb(58, 56, 56)
     }
     .icons{
-        width: 20%;
+        width: 25%;
         height: auto;
         position: absolute;
         left: 80%;
@@ -159,5 +168,17 @@ html{
         flex-direction: row;
         justify-content: space-evenly;
     }
-
+    .fa-facebook{
+        width: 30%;
+        height: 30%; 
+    }
+    .fa-twitter-square{
+        width: 30%;
+        height: 30%; 
+    }
+    .fa-instagram-square{
+        width: 30%;
+        height: 30%; 
+    }
+}
 
